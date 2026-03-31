@@ -14,7 +14,7 @@ from .layers.camera_head import CameraHead
 from .layers.conv_head import ConvHead
 from .dinov2.hub.backbones import dinov2_vitl14, dinov2_vitl14_reg
 from huggingface_hub import PyTorchModelHubMixin
-from loger.models.ttt import FastWeightGluMLPMultihead, TTTOperator
+from .ttt import FastWeightGluMLPMultihead, TTTOperator
 
 class Pi3(nn.Module, PyTorchModelHubMixin):
     def __init__(

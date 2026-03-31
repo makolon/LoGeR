@@ -11,7 +11,6 @@ from typing import Any, Dict, List, Optional, Tuple
 import torch
 
 from loger.models.pi3 import Pi3
-from loger.models.pi3x import Pi3X
 
 
 @dataclass

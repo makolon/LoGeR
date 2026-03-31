@@ -18,8 +18,10 @@ git clone https://github.com/junyi42/LoGeR
 cd LoGeR
 conda create -n loger python=3.11 cmake=3.14.0
 conda activate loger
-pip install -r requirements.txt
+pip install -e .
 ```
+
+The reusable Python package now lives under `src/loger`.
 
 ## Checkpoint Download
 

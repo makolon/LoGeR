@@ -18,7 +18,7 @@ try:
 except ImportError:
     print("onnxruntime not found. Sky segmentation may not work.")
 
-from loger.utils.visual_util import segment_sky, download_file_from_url
+from .visual_util import segment_sky, download_file_from_url
 
 
 def apply_ema(data: np.ndarray, alpha: float) -> np.ndarray:
